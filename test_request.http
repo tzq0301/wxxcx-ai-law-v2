@@ -1,0 +1,36 @@
+POST http://localhost:8000/search_samples
+Content-Type: application/json
+
+{
+  "text": "我好像杀了个人，怎么样呀",
+  "accusations": ["故意杀人", "故意伤人", "寻性滋事"]
+}
+
+###
+POST http://localhost:8000/search_samples
+Content-Type: application/json
+
+{
+  "text": "我好像杀了个人，怎么样呀",
+  "accusations": ["故意杀人", "故意伤人"]
+}
+
+###
+POST http://localhost:8000/search_samples
+Content-Type: application/json
+
+{
+  "text": "我好像杀了个人，怎么样呀",
+  "accusations": ["故意杀人"]
+}
+
+###
+POST http://localhost:8000/search_samples
+Content-Type: application/json
+
+{
+  "text": "我好像杀了个人，怎么样呀",
+  "accusations": []
+}
+
+###
